@@ -3,7 +3,7 @@
   <head id="head">
     <meta charset="utf-8">
     <title id="title">
-      Home
+      list
       | Vini Brasil's Blog
     </title>
     <meta name="description" content="Loris Cro&apos;s Blog">
@@ -12,8 +12,8 @@
     <meta name="twitter:image" content="https://kristoff.it/logo.png">
     <meta name="twitter:author" content="@croloris">
     <meta name="twitter:description" content="Loris Cro&apos;s Blog">
-    <meta name="twitter:title" content="Home">
-    <meta property="og:title" content="Home">
+    <meta name="twitter:title" content="Posts">
+    <meta property="og:title" content="Posts">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://kristoff.it/logo.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -85,12 +85,12 @@
       Vinicyus Brasil
     </h1>
     <h3 style="margin-top:0;"><i>
-        Personal Website
+        Personal Website 
       </i><br>
       <img src="/profile.jpg" height="40 " class="profile-pic"></h3>
     <div>
 
-      <div id="page"><h2>About me</h2><p>Hi, I’m a Machine Learning Engineer at Grupo Boticário and got a Master’s in Computational Statistics by the UFPR. Here you can read about some projects I’ve been working on and about my research.</p><h2>Posts</h2></div>
+      <div id="page"><h2>List of posts</h2></div>
 
 
       <!-- <h2>
@@ -115,35 +115,30 @@
         first and
         <a href="https://github.com/sponsors/kristoff-it/">me</a>
         second. -->
-
-
-  <p> When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-    \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
       </div>
-
-      
     </div>
     <div>
+      <ul>
+        <!-- <ul :loop="$loop.subpages()"> -->
+          <!-- <li :text="$loop.it.site().link().page().subpages()"></li> -->
+          
+          <ul> 
+            <a href="/blog/all-your-codebase/" class="post-link">All Your Codebase</a>
+     
+            <a href="/blog/advent-of-code-zig/" class="post-link">Advent of Code in Zig</a>
+     
+            <a href="/blog/test-vapo/" class="post-link">Opa opa</a>
+     
+            <a href="/blog/addio-redis/" class="post-link">Addio Redis, I&apos;m leaving Redis Labs</a>
+     
+            <a href="/projects/" class="post-link">Posts</a>
+     
+            <a href="/research/" class="post-link">Research</a>
+    </ul>
+  </ul>
 
-      <div>
-        <a href="/blog/all-your-codebase/" class="post-link">All Your Codebase</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">December 10, 2024</span>
-      
-        <a href="/blog/advent-of-code-zig/" class="post-link">Advent of Code in Zig</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">November 25, 2024</span>
-      
-        <a href="/blog/test-vapo/" class="post-link">Opa opa</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">August 02, 2024</span>
-      
-        <a href="/blog/addio-redis/" class="post-link">Addio Redis, I&apos;m leaving Redis Labs</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">July 06, 2020</span>
-      
-        <a href="/projects/" class="post-link">Posts</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">July 06, 2018</span>
-      
-        <a href="/research/" class="post-link">Research</a>
-        <span class="post-byline" style="margin-bottom: 1rem;">July 06, 2018</span>
-      </div>
+      <p> opa </p>
+      <div></div>
     </div>
     <!-- <div>
       <small><a href="/index.xml" rel="alternate" type="application/rss+xml">RSS feed</a></small>
