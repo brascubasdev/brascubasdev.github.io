@@ -175,3 +175,49 @@ code.markdown .text.title {
 code.markdown .punctuation {
   color: var(--light-red);
 }
+
+code.bash {
+  color: var(--cyan);
+}
+
+code.bash .punctuation {
+  color: var(--dark-red);
+}
+
+code.bash .string {
+  color: var(--dark-yellow);
+}
+
+code.bash .variable,
+code.bash .parameter,
+code.bash .exception,
+code.bash .field {
+  color: var(--light-yellow);
+}
+
+code.bash .keyword.function {
+  color: var(--light-red);
+}
+
+code.bash .bracket {
+  color: var(--dark-red);
+}
+
+code.bash .function {
+  color: var(--blue);
+}
+
+code.bash .builtin {
+  color: var(--magenta);
+}
+
+code.bash .number {
+  color: var(--magenta);
+}
+
+code.bash .operator,
+code.bash .qualifier,
+code.bash .keyword,
+code.bash .attribute {
+  color: var(--light-red);
+}
