@@ -27,7 +27,7 @@
       <img src="$site.asset('profile.jpg').link()" height=40  class="profile-pic"></h3>
     <div>
 
-      <div id="page" :html="$page.content()"></div>
+      <div id="page" :html="$page.content()" class="body"></div>
 
 
       <!-- <h2>
@@ -54,8 +54,9 @@
         second. -->
 
 
-  <p> When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-    \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+  <!-- <p> When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+    \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p> -->
+
       </div>
 
       
