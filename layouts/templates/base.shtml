@@ -31,6 +31,10 @@
     <link rel="stylesheet" type="text/css" href="$site.asset('style.css').link()">
     <link rel="stylesheet" type="text/css" href="$site.asset('highlight.css').link()">
     
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+    
     <script defer type="text/javascript" src="https://api.pirsch.io/pirsch.js" id="pirschjs" data-code="CnorXJVVDmhCee3FBtXSQISdHIUmqp3o"></script>
     <super>
   </head>
@@ -53,17 +57,14 @@
 
       <a href="/">Home</a>
       •
-      <a href="/">Projects</a>
+      <a href="$site.page('projects').link()">Posts</a>
       •
-      <a href="/">Research</a>
+      <a href="$site.page('research').link()">Research</a>
       •
       <a href="/">LinkedIn</a>
       •
       <a href="/">Github</a>
-      •
-      <a href="/" target="_blank">
-        Lattes
-      </a>
+      
     </nav>
     <div id="content">
       <super>

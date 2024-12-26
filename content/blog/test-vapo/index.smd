@@ -1,0 +1,20 @@
+---
+.title = "Opa opa",
+.description = "",
+.author = "Loris Cro",
+.layout = "post.shtml",
+.date = @date("2024-08-02T00:00:00"),
+.draft = false,
+---
+
+
+Lorem ipsum dolor sit amet. 
+
+
+When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
+\\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\\]  
+
+\\(x \\) não é sempre x.
+
+akkk
+

@@ -1,21 +1,16 @@
 ---
 .title = "Home",
 .date = @date("2018-07-06T00:00:00"),
-.author = "Loris Cro",
+.author = "Vinicyus Brasil",
 .layout = "index.shtml",
-.alternatives = [{ 
-    .name = "rss",
-    .layout = "rss.xml", 
-    .output = "index.xml",
-}],
 .draft = false,
 ---
 
->Zine is alpha software.  
->Using Zine today means participating in its development.
 
 ## About me
 
 Hi, I'm a Machine Learning Engineer at Grupo Boticário and got a Master's in Computational Statistics by the UFPR.
 Here you can read about some projects I've been working on and about my research.
+
+## Posts
 
