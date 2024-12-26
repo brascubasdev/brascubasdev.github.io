@@ -8,7 +8,7 @@
   >
 </head>
 <div id="content" class="foo">
-  <div style="display:flex; flex-direction:column; align-items:center;">
+  <!-- <div style="display:flex; flex-direction:column; align-items:center;">
     <h1 id="header"><a class="reset-a" href="/">Loris Cro</a></h1>
     <small><i>Personal Website</i></small>
     <div style="display:flex; justify-content:center; font-size:small;">
@@ -22,7 +22,7 @@
       	&nbsp; • &nbsp;
       <a href="https://github.com/kristoff-it">GitHub</a>
     </div>
-  </div>
+  </div> -->
   <h1 :text="$page.title"></h1>
   <p class="post-byline">
     <span :text="$page.date.format('January 02, 2006')"></span>

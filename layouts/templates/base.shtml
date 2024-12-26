@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title id="title">
       <super>
-      | Loris Cro's Blog
+      | Vini Brasil's Blog
     </title>
     <meta name="description" content="$page.description.len().gt(0).then($page.description, 'Loris Cro\'s Blog')">
     <meta name="twitter:card" content="summary">
@@ -26,10 +26,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="$site.asset('main.css').link().suffix('?bust2')">
     <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link().suffix('?bust')">
+    <link rel="stylesheet" type="text/css" href="$site.asset('fonts.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('fira_code.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('style.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('highlight.css').link()">
+    
     <script defer type="text/javascript" src="https://api.pirsch.io/pirsch.js" id="pirschjs" data-code="CnorXJVVDmhCee3FBtXSQISdHIUmqp3o"></script>
     <super>
   </head>
   <body>
+    <!-- <nav id="menu" class="centered"> -->
+    <nav>
+      <!-- <a href="/">Home</a>
+      •
+      <a href="$site.page('quickstart').link()">Get Started</a>
+      •
+      <a href="$site.page('docs').link()">Documentation</a>
+      •
+      <a href="$site.page('community').link()">Community</a>
+      •
+      <a href="$site.page('log').link()">Devlog</a>
+      •
+      <a href="https://github.com/kristoff-it/zine" target="_blank">
+        Code
+      </a> -->
+
+      <a href="/">Home</a>
+      •
+      <a href="/">Projects</a>
+      •
+      <a href="/">Research</a>
+      •
+      <a href="/">LinkedIn</a>
+      •
+      <a href="/">Github</a>
+      •
+      <a href="/" target="_blank">
+        Lattes
+      </a>
+    </nav>
     <div id="content">
       <super>
     </div>
