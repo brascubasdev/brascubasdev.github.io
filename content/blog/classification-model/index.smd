@@ -103,7 +103,7 @@ plt.plot(history.history['val_loss'])
 
 
 The output of the model is a vector with a score for each class. The softmax function can be used to transform these scores into probabilities. For each $z_{i}$ score of the $i$ class of the K classes, the softmax function can be written as:
-\[ \sigma(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}} \].
+\\[ \sigma(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}} \\]
 
 
 We can now save the model using a method of the model class:
