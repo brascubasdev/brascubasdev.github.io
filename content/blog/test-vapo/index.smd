@@ -4,7 +4,7 @@
 .author = "Loris Cro",
 .layout = "post.shtml",
 .date = @date("2024-08-02T00:00:00"),
-.draft = false,
+.draft = true,
 ---
 
 

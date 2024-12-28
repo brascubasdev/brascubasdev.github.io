@@ -21,9 +21,9 @@
     <h1 style="margin-bottom:0;">
       Vinicyus Brasil
     </h1>
-    <h3 style="margin-top:0;"><i>
+    <h3 style="margin-top:0;">
         Personal Website 
-      </i><br>
+      <br>
       <img src="$site.asset('profile.jpg').link()" height=40  class="profile-pic"></h3>
     <div>
 
@@ -61,14 +61,10 @@
           
           <ul :loop="$loop.it.subpages()"> 
             <a href="$loop.it.link()" class="post-link" :text="$loop.it.title"></a>
+            <span class="post-byline" style="margin-bottom: 1rem;" :text="$loop.it.date.format('January 02, 2006')"></span>
     </ul>
   </ul>
 
-      <p> opa </p>
-      <div :loop="$page.subpages()">
-        <a href="$loop.it.link()" class="post-link" :text="$loop.it.title"></a>
-        <span class="post-byline" style="margin-bottom: 1rem;" :text="$loop.it.date.format('January 02, 2006')"></span>
-      </div>
     </div>
     <!-- <div>
       <small><a href="/index.xml" rel="alternate" type="application/rss+xml">RSS feed</a></small>

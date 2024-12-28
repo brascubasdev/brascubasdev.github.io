@@ -21,9 +21,7 @@
     <h1 style="margin-bottom:0;">
       Vinicyus Brasil
     </h1>
-    <h3 style="margin-top:0;"><i>
-        Personal Website
-      </i><br>
+    <h3 style="margin-top:0;">Personal Website<br>
       <img src="$site.asset('profile.jpg').link()" height=40  class="profile-pic"></h3>
     <div>
 
