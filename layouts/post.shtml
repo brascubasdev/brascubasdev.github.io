@@ -47,6 +47,9 @@
       </li>
     </ol>
   </div>
+  <div>
+    <small><a href="/index.xml" rel="alternate" type="application/rss+xml">RSS feed</a></small>
+  </div>
   <hr>
   <div id="prev-next">
     <span :if="$page.prevPage()">

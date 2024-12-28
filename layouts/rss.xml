@@ -1,8 +1,8 @@
 <rss version="2.0">
 	<channel>
-		<title>Loris Cro's Personal Website</title>
-		<link>https://kristoff.it/</link>
-		<description>Recent content on Loris Cro's Personal Website</description>
+		<title>Vinicyus Brasil's Personal Website</title>
+		<link>https://vinybrasil.github.io/</link>
+		<description>Recent content on Vinicyus Brasil's Personal Website</description>
 		<generator>Zine -- https://github.com/kristoff-it/zine</generator>
 		<language>en-us</language>
 		<lastBuildDate :text="$build.generated.formatHTTP()"></lastBuildDate>

@@ -66,9 +66,9 @@
         <span class="post-byline" style="margin-bottom: 1rem;" :text="$loop.it.date.format('January 02, 2006')"></span>
       </div>
     </div>
-    <!-- <div>
+    <div>
       <small><a href="/index.xml" rel="alternate" type="application/rss+xml">RSS feed</a></small>
-    </div> -->
+    </div>
 
 
   </div>
