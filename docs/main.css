@@ -50,6 +50,7 @@
  }
 
  body {
+   zoom: 1.0;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -63,8 +64,8 @@
  }
 
  #content {
-   max-width: 42rem;
-   width: 50vw;
+   max-width: 40rem;
+   width: 100vw;
    padding: 2.625rem 1.3125rem;
  }
 
@@ -80,7 +81,7 @@
    line-height: 1.3em !important;
    display: inline-block;
    box-sizing: border-box;
-   min-width: 100%;
+   min-width: max-content;
  }
 
  pre {
@@ -90,7 +91,7 @@
    padding: 0;
    background-color: #1E1E1E !important;
    font-size: 0.85em;
-   overflow: auto;
+   overflow: scroll;
  }
 
  code {
