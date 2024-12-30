@@ -50,7 +50,7 @@
  }
 
  body {
-   zoom: 0.8;
+   zoom: 1.0;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -64,8 +64,8 @@
  }
 
  #content {
-   max-width: 42rem;
-   width: 50vw;
+   max-width: 40rem;
+   width: 100vw;
    padding: 2.625rem 1.3125rem;
  }
 
