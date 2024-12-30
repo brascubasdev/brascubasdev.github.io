@@ -5,3 +5,7 @@ zig build install -p docs
 to run locally:
 
 zig build serve
+
+alternativas: 
+
+https://mystmd.org/guide/quickstart
